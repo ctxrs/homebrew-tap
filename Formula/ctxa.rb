@@ -1,8 +1,8 @@
 class Ctxa < Formula
   desc "Local capability control for AI agents"
   homepage "https://ctx.rs/authority"
-  url "https://github.com/ctxrs/ctx-authority/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "e128e316f15b1a99537ea6a7bb789c22082a07a84ca54223039bc68bdd8fdec2"
+  url "https://github.com/ctxrs/ctx-authority/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "2b17ee432615e7cbdd490ac4674a3dda9ce95b466700af041198aaf404ae5623"
   license "Apache-2.0"
 
   depends_on "pkgconf" => :build
