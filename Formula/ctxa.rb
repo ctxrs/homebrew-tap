@@ -17,6 +17,6 @@ class Ctxa < Formula
   end
 
   test do
-    system "#{bin}/ctxa", "--help"
+    system bin/"ctxa", "--help"
   end
 end
