@@ -2,10 +2,10 @@
 
 Homebrew formulae for ctx projects.
 
-## Install ctxa
+## Install ctx
 
 ```sh
-brew install ctxrs/tap/ctxa
+brew install ctxrs/tap/ctx
 ```
 
-`ctxa` is the CLI for ctx authority, local capability control for AI agents.
+`ctx` is the CLI for the ctx Agentic Development Environment.
