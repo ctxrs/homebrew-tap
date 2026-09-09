@@ -8,13 +8,13 @@ class Ctx < Formula
     on_arm do
       url "https://github.com/ctxrs/ctx/releases/download/v1.3.2/ctx-macos-arm64",
           using: :nounzip
-      sha256 "c90fcd804d79e755cbae73368e49b53fa820cc9bb2bf4636b62242143e7f6552"
+      sha256 "f1223f91136a968a5156e4fa3b05b68214b78d8284865f909b54bcd60e2c6b09"
     end
 
     on_intel do
       url "https://github.com/ctxrs/ctx/releases/download/v1.3.2/ctx-macos-x64",
           using: :nounzip
-      sha256 "2059a6ec213c680ce44d8bb09e28fc29b621088044e45d75a7d0ff3607351eb0"
+      sha256 "ed9f50c1b3c89bd091803dc628d78de1bb72d2886c5b6f413a9e735a7e834b57"
     end
   end
 
@@ -22,13 +22,13 @@ class Ctx < Formula
     on_intel do
       url "https://github.com/ctxrs/ctx/releases/download/v1.3.2/ctx-linux-x64",
           using: :nounzip
-      sha256 "59e9d7f9842fdab07789ce1aedf4db6838e3b0fdbddc60cee5446f08d02a2d02"
+      sha256 "5eafcc659a076b2fe3b20f72bdb430d73500bf696cc304bcc1f4e5f2e6408775"
     end
 
     on_arm do
       url "https://github.com/ctxrs/ctx/releases/download/v1.3.2/ctx-linux-aarch64",
           using: :nounzip
-      sha256 "df3fb752f16ae245de3135228e1090343c3a04877c57ddcbe712b9c4493b8fe2"
+      sha256 "000350f0c13b833be6cc6af188a35fe2d8d0ba129421b0686939726d0185c917"
     end
   end
 
