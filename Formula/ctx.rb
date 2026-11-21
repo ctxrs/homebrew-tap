@@ -2,33 +2,33 @@ class Ctx < Formula
   desc "Search agent history, blame code, map repositories, and filter tool output"
   homepage "https://ctx.rs"
   license "Apache-2.0"
-  version "2.4.1"
+  version "2.5.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ctxrs/ctx/releases/download/v2.4.1/ctx-macos-arm64",
+      url "https://github.com/ctxrs/ctx/releases/download/v2.5.0/ctx-macos-arm64",
           using: :nounzip
-      sha256 "3876f1c197ac2a6dc74ae0020a4aa3a38dd3cf055c857142d9e4fddcfbd8593d"
+      sha256 "fb4552ba0eba63da5f1526cd27bc49dbc6475c081c832c8571e3d29814e34401"
     end
 
     on_intel do
-      url "https://github.com/ctxrs/ctx/releases/download/v2.4.1/ctx-macos-x64",
+      url "https://github.com/ctxrs/ctx/releases/download/v2.5.0/ctx-macos-x64",
           using: :nounzip
-      sha256 "858608c857d81f07056bbd5fdc5219fd237a495e237ec9e0f4aeecf0e3e82267"
+      sha256 "80039d8ccfa8999b304e5bd2b367f118e53b4b433ad894a3aab80cadc037426d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ctxrs/ctx/releases/download/v2.4.1/ctx-linux-x64",
+      url "https://github.com/ctxrs/ctx/releases/download/v2.5.0/ctx-linux-x64",
           using: :nounzip
-      sha256 "ace96fce19d727d55d89d5e3a02920b72d8e7d3ab57a1c9637621ad481d96221"
+      sha256 "b8a23886d99cb7d4e986ddd6e89642238e34eb7f64fa39a57aa870aba169a0b0"
     end
 
     on_arm do
-      url "https://github.com/ctxrs/ctx/releases/download/v2.4.1/ctx-linux-aarch64",
+      url "https://github.com/ctxrs/ctx/releases/download/v2.5.0/ctx-linux-aarch64",
           using: :nounzip
-      sha256 "6ee85d3da36bf6d72de0a1011147910e439bba7c5836db52dfefd04f1feb1b76"
+      sha256 "99a8804519f33fb3622067f6e2c3e492a8bd9951d2fceedba683da9d25ac7307"
     end
   end
 
